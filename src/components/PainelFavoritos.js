@@ -10,7 +10,7 @@ const PainelFavoritos = ({ favoritos }) => {
           <CardAtleta 
             key={index} 
             atleta={atleta} 
-            adicionarFavorito={() => {}}  // Botão não faz nada no painel
+            adicionarFavorito={() => {}} 
           />
         ))}
       </div>
